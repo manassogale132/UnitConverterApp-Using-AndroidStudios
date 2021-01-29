@@ -17,9 +17,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".KiloToPound"></activity>
-        <activity android:name=".KiloToGram"></activity>
-        <activity android:name=".PoundToGram"></activity>
+        <activity android:name=".WeightConverter"></activity>
+        <activity android:name=".LengthConverter"></activity>
+
     </application>
 
 </manifest>

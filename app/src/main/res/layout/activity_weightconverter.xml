@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="30dp"
+    android:paddingLeft="30dp"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
+            android:textSize="30dp"
+            android:inputType="textPersonName"
+            android:hint="Enter here" />
+
+        <TextView
+            android:id="@+id/textViewConverted"
+            android:layout_width="match_parent"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
+            android:textSize="30dp"
+            android:layout_height="wrap_content"
+            android:text="Converted" />
+
+        <Button
+            android:id="@+id/kiloToPoundBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:textSize="18dp"
+            android:text="kilogram to pound" />
+
+        <Button
+            android:id="@+id/kiloToGramBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:textSize="18dp"
+            android:text="kilogram to gram" />
+
+        <Button
+            android:id="@+id/poundTogramBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:textSize="18dp"
+            android:text="Pound to Gram" />
+
+        <Button
+            android:id="@+id/tonToKiloBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:textSize="18dp"
+            android:text="Ton to kilogram" />
+
+
+    </LinearLayout>
+</ScrollView>

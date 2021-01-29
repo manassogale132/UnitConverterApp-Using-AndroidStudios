@@ -11,17 +11,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         button1.setOnClickListener {
-            val intent = Intent(this,KiloToPound::class.java)
+            val intent = Intent(this,WeightConverter::class.java)
             startActivity(intent)
         }
 
         button2.setOnClickListener {
-            val intent = Intent(this,KiloToGram::class.java)
-            startActivity(intent)
-        }
-
-        button3.setOnClickListener {
-            val intent = Intent(this,PoundToGram::class.java)
+            val intent = Intent(this,LengthConverter::class.java)
             startActivity(intent)
         }
     }
